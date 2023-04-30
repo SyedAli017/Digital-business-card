@@ -7,7 +7,7 @@ function App() {
     <>
       <section className="content">
         <div className="image-container">
-          <img className="profile-image" src="../images/profile-image.png" alt="profile-photo"/>
+          <img className="profile-image" src="./images/profile-image.png" alt="profile-photo"/>
 
         </div>
         <div className="main-content">

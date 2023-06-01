@@ -1,36 +1,31 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
-
-}
-
-#root {
-  width: 550px;
-  height: fit-content;
-  margin: auto;
-  background-color: #23252c;
-
+  color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 .content {
+  width: 550px;
+  height: 100vh;
   margin: auto;
-  width: 320px;
-  color: #ffffff;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1a1b21;
-  
+  gap: 10px;
+  /* background-color: #1a1b21; */
+  background-color: #23252c;
 }
 
-.main-content {
+.main-content,
+.about-section {
   width: 250px;
   padding: 35px;
   padding-bottom: 24px;
   padding-top: 0;
-
 }
 
 .profile-image {
@@ -45,7 +40,6 @@ body {
   line-height: 30px;
   text-align: center;
   margin: auto;
-
 }
 
 .position {
@@ -55,7 +49,7 @@ body {
   font-size: 13px;
   line-height: 15px;
   text-align: center;
-  color: #F3BF99;
+  color: #f3bf99;
 }
 
 .website {
@@ -66,8 +60,6 @@ body {
   text-decoration: none;
   color: #ffffff;
   margin: 8px 88px auto;
-  
-  
 }
 
 .email-btn {
@@ -90,17 +82,14 @@ body {
   font-size: 16px;
   line-height: 150%;
   margin-top: 35px;
-
 }
 
 .description {
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  color: #DCDCDC;
+  color: #dcdcdc;
   margin-top: 5px;
-
-
 }
 
 .footer {
@@ -111,14 +100,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  
-
-
 }
 
 .fa-brands {
   color: #918e9b;
   font-size: 25px;
   cursor: pointer;
-  
 }

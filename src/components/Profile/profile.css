@@ -1,0 +1,38 @@
+.profile-image {
+  width: 320px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.position {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #f3bf99;
+}
+
+.website {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.email-btn {
+  margin-top: 14px;
+  font-size: 16px;
+  color: #1a1b21;
+  cursor: pointer;
+}

@@ -5,9 +5,11 @@ import Profile from "./components/Profile/Profile";
 function App() {
   return (
     <main className="content">
-      <Profile />
-      <About />
-      <Footer />
+      <div className="section-wrapper">
+        <Profile />
+        <About />
+        <Footer />
+      </div>
     </main>
   );
 }

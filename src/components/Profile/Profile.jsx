@@ -1,4 +1,5 @@
 import profilePhoto from "../../images/profile-image.png";
+import "./profile.css";
 
 const Profile = () => {
   return (
@@ -14,7 +15,7 @@ const Profile = () => {
         </a>
 
         <div>
-          <button className="email-btn">
+          <button className="button email-btn">
             <i class="fa-solid fa-envelope"></i>Email
           </button>
         </div>
